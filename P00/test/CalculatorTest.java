@@ -48,13 +48,13 @@ public class CalculatorTest {
 	
 	@Test
 	public void testMultiple() {
-		int a = 3;
-		int b = 3;
+		int a = 5;
+		int b = 4;
 		
 		Calculator cal = new Calculator();
 		int actual = cal.multiply(a,b);
 		
-		int expected = 9;
+		int expected = 20;
 		assertEquals(actual, expected);
 				
 	}
